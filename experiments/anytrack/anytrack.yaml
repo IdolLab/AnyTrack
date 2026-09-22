@@ -1,0 +1,117 @@
+PROMPT:
+  USE_PROMPT: True
+  ENC_TYPE: 'rep_token_weight'
+  DEC_TYPE: 'rep_token_weight'
+  CUTMIX: 0.5
+  CUTMIX_OCC: 0.3
+  HIDDEN_DIM: 512
+  TRAJ_JITTER_PROB: 0.0
+  traj_filter: 0.5
+  S_CENTER_JITTER: 3.5
+  S_SCALE_JITTER: 0.5
+  TRACKLEN: 1
+  SPARSE: 5
+  FREEZE: 'full'
+  PELOG: -5
+  TRUNC: False
+  WEIGHT_LABEL_TYPE: 'pred_iou'
+  token_loss: True
+DATA:
+  MAX_SAMPLE_INTERVAL: 200
+  MEAN:
+  - 0.485
+  - 0.456
+  - 0.406
+  SEARCH:
+    CENTER_JITTER: 3.5
+    FACTOR: 4.0
+    SCALE_JITTER: 0.5
+    SIZE: 256
+    NUMBER: 2
+  STD:
+  - 0.229
+  - 0.224
+  - 0.225
+  TEMPLATE:
+    CENTER_JITTER: 0
+    FACTOR: 2.0
+    SCALE_JITTER: 0
+    SIZE: 128
+    NUMBER: 2
+  TRAIN:
+    DATASETS_NAME:
+    - LasHeR_train
+    - DepthTrack_train
+    - VisEvent
+    - RGBDT
+    DATASETS_RATIO:
+    - 1
+    - 1
+    - 1
+    - 1
+    SAMPLE_PER_EPOCH: 30000
+  VAL:
+    DATASETS_NAME:
+    - LasHeR_val
+    - DepthTrack_val
+    DATASETS_RATIO:
+    - 1
+    - 1
+    SAMPLE_PER_EPOCH: 10000
+MODEL:
+  PRETRAIN_FILE: "/home/sqh/lihao/pretrain/DUTrack_Pretrained_256_full.pth.tar"
+  EXTRA_MERGER: False
+  RETURN_INTER: False
+  KEEP_RATE: 0.85
+  BACKBONE:
+    TYPE: itpn_base
+    STRIDE: 16
+    CROSS_LOC: []
+    ADD_CLS_TOKEN: True
+  TSG:
+    LAYER : 2
+    TRACK_QUERY: 1
+    TRACK_QUERY_OLD: 4
+  HEAD:
+    TYPE: CENTER
+    NUM_CHANNELS: 256
+TRAIN:
+  BACKBONE_MULTIPLIER: 0.1
+  DROP_PATH_RATE: 0.1
+  CROSS_DROP_PATH: [ 0.034, 0.067, 0.1 ]
+  BATCH_SIZE: 4
+  EPOCH: 20
+  GIOU_WEIGHT: 2.0
+  L1_WEIGHT: 5.0
+  GRAD_CLIP_NORM: 0.1
+  LR: 0.0001
+  LR_DROP_EPOCH: 10
+  NUM_WORKER: 5
+  OPTIMIZER: ADAMW
+  PRINT_INTERVAL: 50
+  SCHEDULER:
+    TYPE: step
+    DECAY_RATE: 0.1
+  VAL_EPOCH_INTERVAL: 20
+  WEIGHT_DECAY: 0.0001
+  AMP: False
+TEST:
+  EPOCH: 15
+  SEARCH_FACTOR: 4.0
+  SEARCH_SIZE: 256
+  TEMPLATE_FACTOR: 2.0
+  TEMPLATE_SIZE: 128
+  DEFAULT_UPDATE_INTERVALS: 50
+  DEFAULT_UPDATE_THRESHOLD: 0.75
+  UPDATE_INTERVALS:
+    LasHeR: 5
+    Depthtrack: 50
+    RGBDT500: 25
+    VisEvent: 15
+  UPDATE_THRESHOLD:
+    LasHeR: 0.65
+    Depthtrack: 0.75
+    RGBDT500: 0.75
+    VisEvent: 0.7
+
+
