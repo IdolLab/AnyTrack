@@ -1,3 +1,4 @@
+<div align="center">
 # AnyTrack: Unifying Visual Object Tracking with Any Modalities
 
 [![ACM MM 2026 Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral-red)](https://2026.acmmm.org/site/technical-programme.html)
