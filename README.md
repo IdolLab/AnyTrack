@@ -93,48 +93,56 @@ We extend RGBDT500 / LasHeR / DepthTrack / VisEvent with **grayscale images, lan
 RGBDT500_miss download: [Baidu Pan](https://pan.baidu.com/s/1ZLmRnpo0Vz2FENjTuBDDgQ?pwd=812g) | pwd: `812g`
 
 ```
-datasets/
+data/
 ├── RGBDT500/
 │   ├── miss/
 │   ├── Test/
-│   │   └── 001
-│   │       ├── color
-│   │       ├── depth
-│   │       ├── gray
-│   │       ├── infrared
-│   │       ├── audio_description.mp3
-│   │       └── text.txt
+│   │   ├── 001/
+│   │   │   ├── color/
+│   │   │   ├── depth/
+│   │   │   ├── gray/
+│   │   │   ├── infrared/
+│   │   │   ├── audio_description.mp3
+│   │   │   └── text.txt
+│   │   └── ...                       # other sequences
 │   └── Train/
+│       └── ...
 ├── LasHeR/
 │   ├── miss/
 │   ├── Test/
-│   │   └── 1blackteacher
-│   │       ├── visible
-│   │       ├── gray
-│   │       ├── infrared
-│   │       ├── audio_description.mp3
-│   │       └── text.txt
+│   │   ├── 1blackteacher/
+│   │   │   ├── visible/
+│   │   │   ├── gray/
+│   │   │   ├── infrared/
+│   │   │   ├── audio_description.mp3
+│   │   │   └── text.txt
+│   │   └── ...                       # other sequences
 │   └── Train/
+│       └── ...
 ├── DepthTrack/
 │   ├── miss/
 │   ├── Test/
-│   │   └── adapter01_indoor
-│   │       ├── color
-│   │       ├── gray
-│   │       ├── depth
-│   │       ├── audio_description.mp3
-│   │       └── text.txt
+│   │   ├── adapter01_indoor/
+│   │   │   ├── color/
+│   │   │   ├── gray/
+│   │   │   ├── depth/
+│   │   │   ├── audio_description.mp3
+│   │   │   └── text.txt
+│   │   └── ...                       # other sequences
 │   └── Train/
+│       └── ...
 └── VisEvent/
     ├── miss/
     ├── Test/
-    │   └── 00141_tank_outdoor2
-    │       ├── vis_imgs
-    │       ├── gray_imgs
-    │       ├── event_imgs
-    │       ├── audio_description.mp3
-    │       └── text.txt
+    │   ├── 00141_tank_outdoor2/
+    │   │   ├── vis_imgs/
+    │   │   ├── gray_imgs/
+    │   │   ├── event_imgs/
+    │   │   ├── audio_description.mp3
+    │   │   └── text.txt
+    │   └── ...                       # other sequences
     └── Train/
+        └── ...
 ```
 
 > Generate the RGBDT500 missing-modality split:
