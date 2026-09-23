@@ -1,6 +1,3 @@
-明白了 — 把 `Model & Results`（模型权重 + 结果表格）整体上移到 README 开头（标题/徽章/作者信息之后、Abstract 之前），同时徽章变成 5 个（新增 Model & Results），正文中原有的对应章节删除。更新如下：
-
-```markdown
 # AnyTrack: Unifying Visual Object Tracking with Any Modalities
 
 [![ACM MM 2026 Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral-red)](https://2026.acmmm.org/site/technical-programme.html)
