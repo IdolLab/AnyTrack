@@ -93,7 +93,7 @@ We extend [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/) / [LasHeR](https:
 RGBDT500_miss download: [Baidu Pan](https://pan.baidu.com/s/1ZLmRnpo0Vz2FENjTuBDDgQ?pwd=812g) | pwd: `812g`
 
 ```
-data/
+datasets/
 ├── RGBDT500/
 │   ├── miss/
 │   ├── Test/
