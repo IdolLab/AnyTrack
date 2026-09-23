@@ -1,9 +1,15 @@
 # AnyTrack: Unifying Visual Object Tracking with Any Modalities
 
-[![ACM MM 2026 Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral-red)](https://dl.acm.org/doi/10.1145/3767308.3835550)
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://dl.acm.org/doi/10.1145/3767308.3835550)
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
-[![GitHub stars](https://img.shields.io/github/stars/IdolLab/AnyTrack?style=social)](https://github.com/IdolLab/AnyTrack)
+![]([https://img.shields.io/badge/ACM%20MM%202026-ORAL%20PRESENTATION-ff4757?style=for](https://img.shields.io/badge/ACM%20MM%202026-ORAL%20PRESENTATION-ff4757?style=for)‑the‑badge&logo=acm)
+[![]([https://img.shields.io/badge/arXiv-2608.06773-b31b1b?style=for](https://img.shields.io/badge/arXiv-2608.06773-b31b1b?style=for)‑the‑badge&logo=arxiv)]([https://arxiv.org/abs/2608.06773](https://arxiv.org/abs/2608.06773))
+[![]([https://img.shields.io/badge/Benchmark](https://img.shields.io/badge/Benchmark)‑Dataset‑00d2d3?style=for‑the‑badge)](#-extended-benchmark)
+[![]([https://img.shields.io/badge/Model](https://img.shields.io/badge/Model)‑Weights‑ffd32a?style=for‑the‑badge)](#-model-checkpoints)
+[![]([https://img.shields.io/github/stars/IdolLab/AnyTrack?style=for](https://img.shields.io/github/stars/IdolLab/AnyTrack?style=for)‑the‑badge&logo=github&color=yellow)]([https://github.com/IdolLab/AnyTrack](https://github.com/IdolLab/AnyTrack))
+[![]([https://img.shields.io/github/forks/IdolLab/AnyTrack?style=for](https://img.shields.io/github/forks/IdolLab/AnyTrack?style=for)‑the‑badge&logo=github)]([https://github.com/IdolLab/AnyTrack](https://github.com/IdolLab/AnyTrack))
+
+### 🔥 One Single Model for Arbitrary Modality Combinations 🔥
+
+*RGB / Grayscale / Depth / Thermal / Event / Language / Audio*
 
 > 
 > **AnyTrack: Unifying Visual Object Tracking with Any Modalities**
@@ -12,7 +18,7 @@
 > *Hao Li, Yunzhi Zhuge, Wenning Hao*, Pingping Zhang*, Xiaoxiong Zhang, Dong Wang, Huchuan Lu*
 > 
 > 
-> **ACM Multimedia 2026 Oral Presentation 🎤**
+> **ACM Multimedia 2026 • Oral Presentation 🎤**
  
 ---
 
