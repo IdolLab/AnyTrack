@@ -325,7 +325,7 @@ class AnyTrack(nn.Module):
 def build_anytrack(cfg, training=True):
     current_dir = os.path.dirname(os.path.abspath(__file__))  # This is your Project Root
     pretrained_path = os.path.join(current_dir, '../../../pretrained')
-    if cfg.MODEL.PRETRAIN_FILE and ('OSTrack' not in cfg.MODEL.PRETRAIN_FILE) and training:
+    if cfg.MODEL.PRETRAIN_FILE and ('SOT' not in cfg.MODEL.PRETRAIN_FILE) and training:
         pretrained = os.path.join(pretrained_path, cfg.MODEL.PRETRAIN_FILE)
     else:
         pretrained = ''
@@ -360,7 +360,7 @@ def build_anytrack(cfg, training=True):
     )
 
 
-    if training and 'AnyTrack' in cfg.MODEL.PRETRAIN_FILE:
+    if training and 'SOT' in cfg.MODEL.PRETRAIN_FILE:
         checkpoint = torch.load(cfg.MODEL.PRETRAIN_FILE, map_location="cpu")
         param_dict_rgbt = dict()
         missing_keys, unexpected_keys = model.load_state_dict(checkpoint["net"], strict=False)
