@@ -190,7 +190,9 @@ You can adjust the modality combinations in `test.sh`.
 
 ### Evaluation Toolkit
 
-For [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/), [LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/), [DepthTrack](https://github.com/xiaozai/DeT), and [VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark), please use the **official evaluation toolkit**.
+📌 Raw tracking results and per-sequence evaluation files are available at [Baidu Pan](https://pan.baidu.com/s/186HwmOLeufNhqYfiXpkIng?pwd=w3qd) (pwd: `w3qd`).
+
+For [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/), [LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/), [DepthTrack](https://github.com/xiaozai/DeT), and [VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark), please use the corresponding **official evaluation toolkit**.
 
 ---
 
