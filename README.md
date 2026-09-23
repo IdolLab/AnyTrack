@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 Download the four benchmarks: [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/), [LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/), [DepthTrack](https://github.com/xiaozai/DeT), and [VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark).
 
-We extend RGBDT500 / LasHeR / DepthTrack / VisEvent with **grayscale images, language descriptions, and audio annotations**, and construct the `RGBDT500_miss` modality-missing benchmark.
+We extend [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/) / [LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/) / [DepthTrack](https://github.com/xiaozai/DeT) / [VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark) with **grayscale images, language descriptions, and audio annotations**, and construct the `RGBDT500_miss` modality-missing benchmark.
 RGBDT500_miss download: [Baidu Pan](https://pan.baidu.com/s/1ZLmRnpo0Vz2FENjTuBDDgQ?pwd=812g) | pwd: `812g`
 
 ```
