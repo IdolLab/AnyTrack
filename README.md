@@ -154,7 +154,7 @@ python modality_missing_dataset_rgbdt500.py
 
 > For LasHeR_miss / DepthTrack_miss / VisEvent_miss, please refer to the original repos:
 >
-> - LasHeR-miss: [IPL](https://github.com/Alexadlu/Modality%E2%80%91missing%E2%80%91RGBT%E2%80%91Tracking)
+> - LasHeR-miss: [IPL](https://github.com/Alexadlu/Modality-missing-RGBT-Tracking)
 > - DepthTrack-miss & VisEvent-miss: [FlexTrack](https://github.com/supertyd/FlexTrack)
 
 ### ⚙️ Initialize Local Configuration
@@ -232,9 +232,9 @@ If this work benefits your research, please cite our paper:
 
 Our implementation is built upon these great open-source projects:
 
-- [IPL](https://github.com/Alexadlu/Modality%E2%80%91missing%E2%80%91RGBT%E2%80%91Tracking)
+- [IPL](https://github.com/Alexadlu/Modality-missing-RGBT-Tracking)
 - [FlexTrack](https://github.com/supertyd/FlexTrack)
-- [MPT](https://github.com/zj5559/Motion%E2%80%91Prompt%E2%80%91Tracking)
+- [MPT](https://github.com/zj5559/Motion-Prompt-Tracking)
 
 Great thanks to all community contributors!
 
