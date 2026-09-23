@@ -4,7 +4,7 @@
 
 [![ACM MM 2026 Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral-red)](https://2026.acmmm.org/site/technical-programme.html)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/abs/2608.06773)
-[![Benchmark](https://img.shields.io/badge/Benchmark-RGBDT500%20%C2%B7%20LasHeR%20%C2%B7%20VisEvent%20%C2%B7%20DepthTrack-orange)](https://pan.baidu.com/s/1ZLmRnpo0Vz2FENjTuBDDgQ?pwd=812g)
+[![Benchmark](https://img.shields.io/badge/Benchmark-RGBDT500%20%C2%B7%20LasHeR%20%C2%B7%20VisEvent%20%C2%B7%20DepthTrack-orange)](https://pan.baidu.com/s/1A2YFV_7KjprnkQMF1IiEJw?pwd=tkwk)
 [![Model](https://img.shields.io/badge/Model-Checkpoint-yellowgreen)](https://pan.baidu.com/s/1HmO3Lg8hLBfaHXrf5Hg4zQ?pwd=d5pt)
 [![Results](https://img.shields.io/badge/Results-Downloads-yellow)](https://pan.baidu.com/s/186HwmOLeufNhqYfiXpkIng?pwd=w3qd)
 [![GitHub stars](https://img.shields.io/github/stars/IdolLab/AnyTrack?style=social)](https://github.com/IdolLab/AnyTrack)
