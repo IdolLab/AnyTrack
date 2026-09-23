@@ -34,20 +34,10 @@ This repository contains the official implementation of <a href="https://arxiv.o
 
 ---
 
-## 🏗️ Motivation
-
-<p align="center">
-  <img src="assets/motivation.jpg" width="90%" alt="AnyTrack Motivation">
-  <br>
-  <em>Figure 1. Comparison with different object tracking paradigms.</em>
-</p>
-
----
-
 ## ✨ Framework
 
 <p align="center">
-  <img src="assets/framework.jpg" width="95%" alt="AnyTrack Framework">
+  <img src="assets/pipline.jpg" width="95%" alt="AnyTrack Framework">
   <br>
   <em>Figure 2. Overall framework of AnyTrack.</em>
 </p>
