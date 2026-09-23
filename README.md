@@ -1,15 +1,20 @@
-# AnyTrack
+# AnyTrack: Unifying Visual Object Tracking with Any Modalities
 
-### Unifying Visual Object Tracking with Any Modalities
+[![ACM MM 2026 Oral](https://img.shields.io/badge/ACM%20MM%202026-Oral-red)](https://dl.acm.org/doi/10.1145/3767308.3835550)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://dl.acm.org/doi/10.1145/3767308.3835550)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub stars](https://img.shields.io/github/stars/IdolLab/AnyTrack?style=social)](https://github.com/IdolLab/AnyTrack)
 
-<div align="center">
+> 
+> **AnyTrack: Unifying Visual Object Tracking with Any Modalities**
+> 
+> 
+> *Hao Li, Yunzhi Zhuge, Wenning Hao*, Pingping Zhang*, Xiaoxiong Zhang, Dong Wang, Huchuan Lu*
+> 
+> 
+> **ACM Multimedia 2026 Oral Presentation 🎤**
 
-[![ACM MM 2026 Oral](https://img.shields.io/badge/ACM_MM-2026-7B2D8E?style=for-the-badge&logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3767308.3835550)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+![](assets/framework.png)
+  
 
-</div>
-
-<div align="center">
-
-**Hao Li** · **Yunzhi Zhuge** · **Wenning Hao**📧 · **Pingping Zhang**📧 · **Xiaoxiong Zhang** · **Dong Wang** · **Huchuan Lu**
+*Overall pipeline of AnyTrack. One single unified model supports arbitrary combinations of input modalities.*
