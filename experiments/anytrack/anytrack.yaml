@@ -59,7 +59,7 @@ DATA:
     - 1
     SAMPLE_PER_EPOCH: 10000
 MODEL:
-  PRETRAIN_FILE: "/home/sqh/lihao/pretrain/DUTrack_Pretrained_256_full.pth.tar"
+  PRETRAIN_FILE: "/home/sqh/lihao/pretrain/SOT_Pretrained.pth.tar"
   EXTRA_MERGER: False
   RETURN_INTER: False
   KEEP_RATE: 0.85
