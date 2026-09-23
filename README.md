@@ -28,6 +28,8 @@
 
 *Figure 1: Paradigm comparison. From fixed-modality trackers to our any-modality unified framework.*
 
+</div>
+
 ---
 
 ## 📋 Abstract
