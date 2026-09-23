@@ -47,7 +47,7 @@ This repository contains the official implementation of <a href="https://arxiv.o
 ## ✨ Framework
 
 <p align="center">
-  <img src="assets/framework.png" width="95%" alt="AnyTrack Framework">
+  <img src="assets/framework.jpg" width="95%" alt="AnyTrack Framework">
   <br>
   <em>Figure 2. Overall framework of AnyTrack.</em>
 </p>
@@ -57,7 +57,7 @@ This repository contains the official implementation of <a href="https://arxiv.o
 ## 🧩 Context Understanding Module (CUM)
 
 <p align="center">
-  <img src="assets/cum.png" width="85%" alt="CUM Details">
+  <img src="assets/AIUM.jpg" width="85%" alt="CUM Details">
   <br>
   <em>Figure 4. Details of CUM.</em>
 </p>
@@ -234,5 +234,4 @@ Great thanks to all community contributors!
 <p align="center">
   <b>⭐ Star this repo if you like our work!</b>
 </p>
-```
 
