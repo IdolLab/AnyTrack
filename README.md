@@ -32,7 +32,11 @@
 
 ## 📋 Abstract
 
+<div align="justify">
+
 This repository contains the official implementation of <a href="https://arxiv.org/abs/2608.06773"><strong>AnyTrack</strong></a>, a unified visual object tracking framework that can handle **any combination of modalities** through a single model with flexible prompts. We propose a unified tokenization scheme to convert visual inputs of any modality (RGB, grayscale, depth, thermal infrared, event streams) and auxiliary prompts (box trajectories, text descriptions, audio clips) into a unified token space. A Modality-aware Interaction Module (MIM) based on Mixture-of-Experts dynamically adapts to heterogeneous modalities while maintaining temporal coherence. Furthermore, a Context Understanding Module (CUM) constructs global-local prompts from multi-modal references to enable target-aware context modeling. Extensive experiments on four multi-modal tracking benchmarks (RGBDT500, LasHeR, VisEvent, DepthTrack) demonstrate state-of-the-art performance across various modality combinations.
+
+</div>
 
 ---
 
@@ -51,7 +55,7 @@ This repository contains the official implementation of <a href="https://arxiv.o
 <p align="center">
   <img src="assets/AIUM.jpg" width="85%" alt="CUM Details">
   <br>
-  <em>Figure 4. Details of CUM.</em>
+  <em>Figure 3. Details of CUM.</em>
 </p>
 
 ---
