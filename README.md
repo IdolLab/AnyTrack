@@ -233,7 +233,7 @@ If this work benefits your research, please cite our paper:
 Our implementation is built upon these great open-source projects:
 
 - [IPL](https://github.com/Alexadlu/Modality-missing-RGBT-Tracking)
-- [FlexTrack](https://github.com/supertyd/FlexTrack)
+- [XTrack](https://github.com/supertyd/XTrack)
 - [MPT](https://github.com/zj5559/Motion-Prompt-Tracking)
 
 Great thanks to all community contributors!
