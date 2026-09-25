@@ -170,7 +170,7 @@ python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data
 
 ### 🎯 Training Pipeline
 
-1. Download the backbone weights: [Baidu Pan](https://pan.baidu.com/s/1Q2EfvFJpDaKYrhBJgRJ0YQ?pwd=62pb) (pwd: `62pb`), and put them into `./pretrained/`
+1. Download the pre-trained weights: [Baidu Pan](https://pan.baidu.com/s/1Q2EfvFJpDaKYrhBJgRJ0YQ?pwd=62pb) (pwd: `62pb`), and put them into `./pretrained/`
 2. Launch the training script:
 
 ```bash
