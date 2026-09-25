@@ -109,7 +109,7 @@ datasets/
 │       └── ...
 ├── LasHeR/
 │   ├── miss/
-│   ├── Test/
+│   ├── test/
 │   │   ├── 1blackteacher/
 │   │   │   ├── visible/
 │   │   │   ├── gray/
@@ -117,11 +117,11 @@ datasets/
 │   │   │   ├── audio_description.mp3
 │   │   │   └── text.txt
 │   │   └── ...                       # other sequences
-│   └── Train/
+│   └── train/
 │       └── ...
 ├── DepthTrack/
 │   ├── miss/
-│   ├── Test/
+│   ├── test/
 │   │   ├── adapter01_indoor/
 │   │   │   ├── color/
 │   │   │   ├── gray/
@@ -129,11 +129,11 @@ datasets/
 │   │   │   ├── audio_description.mp3
 │   │   │   └── text.txt
 │   │   └── ...                       # other sequences
-│   └── Train/
+│   └── train/
 │       └── ...
 └── VisEvent/
     ├── miss/
-    ├── Test/
+    ├── test/
     │   ├── 00141_tank_outdoor2/
     │   │   ├── vis_imgs/
     │   │   ├── gray_imgs/
@@ -141,7 +141,7 @@ datasets/
     │   │   ├── audio_description.mp3
     │   │   └── text.txt
     │   └── ...                       # other sequences
-    └── Train/
+    └── train/
         └── ...
 ```
 
