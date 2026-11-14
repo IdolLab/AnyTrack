@@ -219,11 +219,11 @@ If this work benefits your research, please cite our paper:
 
 ```bibtex
 @inproceedings{li2026anytrack,
-author = {Li, Hao and Zhuge, Yunzhi and Hao, Wenning and Zhang, Pingping and Zhang, Xiaoxiong and Wang, Dong and Lu, Huchuan},
 title = {AnyTrack: Unifying Visual Object Tracking with Any Modalities},
-year = {2026},
+author = {Li, Hao and Zhuge, Yunzhi and Hao, Wenning and Zhang, Pingping and Zhang, Xiaoxiong and Wang, Dong and Lu, Huchuan},
 booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
-pages = {4613–4622}
+pages = {4613–4622},
+year = {2026}
 }
 ```
 
