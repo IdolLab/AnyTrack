@@ -218,11 +218,12 @@ For [RGBDT500](https://xuefeng-zhu5.github.io/RGBDT500/), [LasHeR](https://cheng
 If this work benefits your research, please cite our paper:
 
 ```bibtex
-@article{li2026anytrack,
-  title={AnyTrack: Unifying Visual Object Tracking with Any Modalities},
-  author={Li, Hao and Zhuge, Yunzhi and Hao, Wenning and Zhang, Pingping and Zhang, Xiaoxiong and Wang, Dong and Lu, Huchuan},
-  journal={arXiv preprint arXiv:2608.06773},
-  year={2026}
+@inproceedings{li2026anytrack,
+author = {Li, Hao and Zhuge, Yunzhi and Hao, Wenning and Zhang, Pingping and Zhang, Xiaoxiong and Wang, Dong and Lu, Huchuan},
+title = {AnyTrack: Unifying Visual Object Tracking with Any Modalities},
+year = {2026},
+booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
+pages = {4613–4622}
 }
 ```
 
